@@ -22,8 +22,7 @@ CATEGORICAL_FEATURES = [
     "color",
     "transmission",
     "drive_unit",
-    "segment",
-    "brand_model"
+    "segment"
 ]
 
 def get_all_feature_columns() -> list[str]:
