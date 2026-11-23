@@ -13,6 +13,7 @@ __pycache__/
 # Environment variables and secrets
 .env
 .env.*
+!.env.example
 
 # IDE settings
 .vscode/
@@ -24,3 +25,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+
+# Data and models
+data/processed/
+models/*.joblib
